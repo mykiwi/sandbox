@@ -15,7 +15,16 @@
         "symfony/yaml": "7.0.*"
     },
     "require-dev": {
+        "dagger/dagger": "dev-main",
+        "symfony/debug-bundle": "7.0.*",
+        "symfony/monolog-bundle": "^3.0",
+        "symfony/stopwatch": "7.0.*",
+        "symfony/web-profiler-bundle": "7.0.*"
     },
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/mykiwi-forks/dagger-php-sdk"
+    }],
     "config": {
         "allow-plugins": {
             "php-http/discovery": true,

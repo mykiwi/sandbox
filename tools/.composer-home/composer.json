@@ -1,0 +1,10 @@
+{
+    "require": {
+        "pyrech/composer-changelogs": "^2.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "pyrech/composer-changelogs": true
+        }
+    }
+}
